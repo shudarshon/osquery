@@ -1,0 +1,51 @@
+select * from apt_sources;
+
+select * from arp_cache; **
+
+select * from authorized_keys;
+
+select * from block_devices;
+
+select * from cpuid;
+
+select * from crontab;
+
+select * from deb_packages;
+
+select * from dns_resolvers;
+
+select * from docker_info.
+
+select * from etc_hosts;
+
+select * from etc_protocols;
+
+select * from etc_services;
+
+select * from groups;	**
+
+select * from interface_details; **
+
+select * from interface_addresses;
+
+select * from kernel_modules;
+
+select * from known_hots; *
+
+select * from last; **
+
+select * from listening_ports; **
+
+select * from load_average;
+
+select * from logged_in_users; **
+
+select * from memory_info; *
+
+select * from memory_map;
+
+select * from mounts;
+
+select * from os_version; *
+
+select * from shadow; *** (run with sudo)
